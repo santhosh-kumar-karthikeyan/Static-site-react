@@ -3,7 +3,7 @@ function Header() {
         <>
             <header className="header">
                 <img src="/react.svg" alt="React logo" width="55px"/>
-                <h1>{"Reasons I'm learning Reactgti bran"}</h1>
+                <h2>{"Those reasons (Even lorem ipsum would've been longer):"}</h2>
             </header>
         </>
     )
