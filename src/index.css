@@ -1,0 +1,80 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background: #27292c;
+  color: white;
+  background-image: url("/half-logo.png");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+.footer {
+  position: fixed;
+  background-color: black;
+  bottom: 0px;
+  width: 100vw;
+  height: 50px;
+  padding-top: 17.5px;
+  margin-left: 0px;
+  left: 0px;
+  text-align: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.header {
+  width: 100vw;
+  padding-left: 50px;
+  background-color: #21222A;
+  color: #61DAFB;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 20px 50px;
+}
+
+ol {
+  line-height: 19px;
+  list-style-type: disc;
+}
+
+li {
+  line-height: 19px;
+  margin-top: 10px;
+}
+
+li::marker {
+  color: #61DAFB;
+  font-size: 20px;
+}
+
+main {
+  padding-left: 130px;
+  height: 100%;
+
+}
+
+main>h1 {
+  font-size: 2.4rem;
+}
+
+#root {
+  height: 100%;
+}
